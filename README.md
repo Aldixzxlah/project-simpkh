@@ -1,17 +1,8 @@
 # SIMPKH (Sistem Informasi Manajemen Pemetaan Kawasan Hutan)
 
-## Cara Mengirim Project ke Teman (RAR/ZIP)
-Agar ukuran file kecil dan aman, **JANGAN** sertakan folder/file berikut saat membuat RAR:
-1.  Folder `/vendor` (ukurannya besar, nanti teman install ulang via `composer install`)
-2.  Folder `/node_modules` (ukurannya besar, nanti teman install ulang via `npm install`)
-3.  File `.env` (berisi password database lokal kamu, temanmu harus buat `.env` sendiri dari `.env.example`)
-4.  Folder `/public/storage` (jika ada file upload dummy, opsional)
+## Langkah Instalasi
 
-Cukup **RAR/ZIP** folder project **TANDA** folder-folder di atas.
-
-## Langkah Instalasi di Laptop Baru (Untuk Teman)
-
-Untuk menjalankan proyek ini di laptop lain (setelah clone atau copy), pastikan sudah terinstall:
+Untuk menjalankan proyek ini (setelah clone atau copy), pastikan sudah terinstall:
 - **PHP**
 - **Composer**
 - **Node.js**
